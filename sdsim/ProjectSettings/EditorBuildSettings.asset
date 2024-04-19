@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/warehouse.unity
     guid: 4483f94080df5d84f9e98fdae085f167
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/sparkfun_avc.unity
     guid: b362fdcb28a444fa5b719f21d5115c5a
   - enabled: 1

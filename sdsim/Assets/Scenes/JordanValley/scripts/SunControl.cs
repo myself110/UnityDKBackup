@@ -22,6 +22,8 @@ public class SunControl : MonoBehaviour
 
     private bool autoRotate = false; // Flag for toggling automatic rotation
 
+    public float autoRotationSpeed = 1f; // Control the speed of automatic rotation
+
     // Start is called before the first frame update
     void Start()
     {
@@ -82,8 +84,8 @@ public class SunControl : MonoBehaviour
         float time = 0f;
         while (autoRotate)
         {
-            // Automatically adjust the slider value to rotate the sun
-            slider.value = Mathf.Lerp(minSliderValue, maxSliderValue, Mathf.Sin(time * Mathf.PI / 10) * 0.5f + 0.5f);
+            // Modify the line with Mathf.Sin(time * Mathf.PI / 10) to include autoRotationSpeed
+            slider.value = Mathf.Lerp(minSliderValue, maxSliderValue, Mathf.Sin(time * Mathf.PI * autoRotationSpeed) * 0.5f + 0.5f);
             time += Time.deltaTime;
             yield return null;
         }

@@ -33,7 +33,7 @@ public class CarConfigScript : MonoBehaviour
     //public Text MaxCameraFOVText;
 
     public bool AngleToggle = false;
-    public float speed = 1.0f;
+    public float speed = 1f;
 
     public Material BGbackgroundColor;
     public bool ColorToggleBool = false;

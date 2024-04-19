@@ -12,7 +12,7 @@ public class Sunint : MonoBehaviour
     public float minLight = 0.8f;
     public float maxLight = 2f;
 
-    public float Rate = 5f;
+    public float speedRate = 1f;
 
     private bool autoChangeActive = false; // To control the start/stop of the coroutine
 
@@ -60,7 +60,7 @@ public class Sunint : MonoBehaviour
     IEnumerator AutoChangeSunIntensity()
     {
         float currentLerpTime = 0f;
-        float lerpTime = Rate; // Time in seconds to complete a single lerp from min to max or max to min
+        float lerpTime = speedRate; // Time in seconds to complete a single lerp from min to max or max to min
         bool increasingIntensity = true; // Direction of intensity change
 
         while (autoChangeActive)
