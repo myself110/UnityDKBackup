@@ -9,11 +9,17 @@ public class JoystickCarControl : MonoBehaviour
 	private ICar car;
 
 	public float MaximumSteerAngle = 25.0f; //has to be kept in sync with the car, as that's a private var.
-	
+
+	//Choose between 2 Input manager Controllers
+	//public string Ps4Layout = "HorizontalPS4";
+	//public string PCLayout = "Horizontal";
+
+	//public string ContLayout;
 	void Awake()
 	{
 		if(carObj != null)
 			car = carObj.GetComponent<ICar>();
+		//ContLayout = PCLayout;
 	}
 
     private void OnDisable()
@@ -33,4 +39,17 @@ public class JoystickCarControl : MonoBehaviour
 		//car.RequestFootBrake(v);
 		car.RequestHandBrake(handbrake);
 	}
+
+	//public void ToggleLayout()
+    //{
+	//	Debug.Log("Changed");
+	//	if (ContLayout == PCLayout)
+	//	{
+	//		ContLayout = Ps4Layout;
+	//	}
+//else if (ContLayout == Ps4Layout)
+    //    {
+	//		ContLayout = PCLayout;
+     //   }
+    //}
 }

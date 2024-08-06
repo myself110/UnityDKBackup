@@ -1570,8 +1570,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1787907216}
   m_HandleRect: {fileID: 1787907214}
   m_Direction: 0
-  m_Value: 0.00060187763
-  m_Size: 0.71258485
+  m_Value: 0.00060200406
+  m_Size: 0.7125848
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2114,6 +2114,7 @@ MonoBehaviour:
   - MaryKnollsSchoolHall
   - RoboCarTracks
   - JordanValleyScene
+  - LaSalle
   loader: {fileID: 2140273047}
   ButtonGridLayout: {fileID: 126483964}
   ButtonPrefab: {fileID: 5466719870426124411, guid: fb93d9878115b39438221fec2f89f2ae,
