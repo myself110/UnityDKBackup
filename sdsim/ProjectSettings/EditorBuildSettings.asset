@@ -56,7 +56,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/JordanValleySceneLines.unity
     guid: 7a314c0724752c4458595cea2d6cae9e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/NewTrackTest.unity
     guid: fda70c0c188722841b1877f5940193f9
   m_configObjects: {}

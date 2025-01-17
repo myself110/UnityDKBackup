@@ -139,6 +139,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7961748649389625354, guid: 8d9f4aeb36da9b544aba0df6b0b5f9e8,
         type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6542
+      objectReference: {fileID: 0}
+    - target: {fileID: 7961748649389625354, guid: 8d9f4aeb36da9b544aba0df6b0b5f9e8,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 27.396233
       objectReference: {fileID: 0}
@@ -150,7 +155,7 @@ PrefabInstance:
     - target: {fileID: 7961748649389625354, guid: 8d9f4aeb36da9b544aba0df6b0b5f9e8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -63
+      value: -61.13
       objectReference: {fileID: 0}
     - target: {fileID: 7961748649389625354, guid: 8d9f4aeb36da9b544aba0df6b0b5f9e8,
         type: 3}
@@ -437,7 +442,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &132280467
 Transform:
   m_ObjectHideFlags: 0
@@ -446,8 +451,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132280466}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 30.7, y: 0, z: -5.4}
-  m_LocalScale: {x: 12.4310465, y: 3.8847017, z: 15.150338}
+  m_LocalPosition: {x: 30.7, y: 0, z: -10.7}
+  m_LocalScale: {x: 10.127012, y: 1.6714, z: 13.245845}
   m_Children: []
   m_Father: {fileID: 513332713}
   m_RootOrder: 0
@@ -3615,7 +3620,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &805435613
 Transform:
   m_ObjectHideFlags: 0
@@ -5685,7 +5690,7 @@ MonoBehaviour:
   m_MinValue: 0.1
   m_MaxValue: 3
   m_WholeNumbers: 0
-  m_Value: 2
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7661,7 +7666,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1778773244
 GameObject:
   m_ObjectHideFlags: 0
@@ -8071,7 +8076,7 @@ MonoBehaviour:
   m_MinValue: 1
   m_MaxValue: 40
   m_WholeNumbers: 0
-  m_Value: 4
+  m_Value: 10.5
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8406,7 +8411,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &1930355106
 GameObject:
   m_ObjectHideFlags: 0
